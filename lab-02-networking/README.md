@@ -39,22 +39,26 @@ az deployment group create \
 
 ## Evidence
 
-### 01-VNet and subnets deployed
+### 01-VNet and NSGs deployed
 
-![VNet and subnets](screenshots/01-vnet-subnets.png)
+![VNet and Nsgs](screenshots/01-vnet-nsgs.png)
 
-### 02-NSG rules on nsg-web-dev
+### 02-Subnets
+
+![Web NSG rules](screenshots/02-subnets.png)
+
+### 03-NSG rules on nsg-web-dev
 
 ![Web NSG rules](screenshots/02-nsg-web-rules.png)
 
-### 03-NSG rules on nsg-app-dev
+### 04-NSG rules on nsg-app-dev
 
 ![App NSG rules](screenshots/03-nsg-app-rules.png)
 
-### 04-NSG rules on nsg-data-dev
+### 05-NSG rules on nsg-data-dev
 
 ![Data NSG rules](screenshots/04-nsg-data-rules.png)
 
-### 05-Successful deployment
+### 06-Successful deployment
 
 ![Deployment success](screenshots/05-deployment-success.png)
