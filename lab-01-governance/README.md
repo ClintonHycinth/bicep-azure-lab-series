@@ -41,18 +41,18 @@ az deployment sub create \
 
 ## Evidence
 
-### Resource groups deployed
+### 01-Resource groups deployed
 
 ![Resource Groups](screenshots/01-resource-groups.png)
 
-### Tags on rg-networking-dev
+### 02-Tags on rg-networking-dev
 
 ![Tags on networking resource group](screenshots/02-tags-networking-rg.png)
 
-### Tags on rg-compute-dev
+### 03-Tags on rg-compute-dev
 
 ![Tags on compute resource group](screenshots/03-tags-compute-rg.png)
 
-### Successful deployment
+### 04-Successful deployment
 
 ![Deployment success](screenshots/04-deployment-success.png)
