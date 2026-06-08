@@ -1,0 +1,15 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "environment": {
+      "value": "dev"
+    },
+    "adminUsername": {
+      "value": "clintonadmin"
+    },
+    "adminPublicKey": {
+      "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCh/ns+W7zMDMqV8sfITKFeQ73iyfJecAFYb7fwZICCVRAzDeDUTDuEYQc1UEw9Z3rKyLZ7oFwDExq7GtIUg29j8+3yefPtQdHKYgrQsc4kJNotgBOaIaokfmkaikdLbwc/DAIAPWtlvYKH9D/5ETOH516/ZpOJZaSWlu0GdBeBTCFLCPnZzyVxYoCIKbRNuKSFyy/MpYf+wXqSZT94uMKmcKDRGCoogJ9G4ldmsuDMY8SHJCeIdVld+VN7+NcfEvOyJMHaqEZPRBVF5Noc7l0uZWufekM/ZYfn2iMf1YVgX5OYVt5GXiHElrXdOBNVtbfRaqNfXEDZQxt6jDmoGAgtr10Mw6OyJBsKFfrTVnuISnpNOudluyh3WujoFtPzywAo9unLjoF9EsSuOIqyXAxg9TZm7wI2FGmTvkQY0MdNPpKO7JcxPecRSRoLwgDG6Ro9IN+4S+PctkdDxeDt9ZMKyIKAdBiQakA1MPkaxQ0XWwMqHc5kR7LMCbcBtHK0sOiJuErkdnpomMeonutoBUys4SkpX6WOQ+oJmLQUV99ZCyk2VexOPTQxjReLmScfMCK8LFIWk+uhhi/NUz3n0zKzNbp8t1ST9BYS2+gcD5uYlw7LzjGlTqtIykGIjRnUeleBNdvjNW1ux5g06SqH0mgy4MUeUSdg+3I5+HlATVWDpw== clinton-bicep-lab"
+    }
+  }
+}
