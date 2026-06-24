@@ -1,0 +1,27 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "environment": {
+      "value": "dev"
+    },
+    "adminUsername": {
+      "value": "clintonadmin"
+    },
+    "adminPublicKey": {
+      "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCG4IqKZdJBhMsCVOIGH3BXfPIRnrqSUl2NmlDum8Ot+irVWfEe2Y9oXjuE2PqfTzYV51JscjIncYv7PChBtn5Ujc8XI7ZI44vA4V+ueiWv5jOdMY0VrUXxo1hsAX2CVtTf8bwvUWc+X2mLujBg6lXV1NBWgcFDIHk+aSCDyMvv1l5ZGFE036G6OM8c1i0h1YXTKMsbpVOsUtDHm8cLBD778j2Z3k1cwgTDSj/DvmkNbqjyetRTVCH8JjcTRJfBXmFQSfx0kWbM1YqSKVGJSZHmUsaY6IJUyqEpCyF2iIaQnQsZQV8Is9sz+IYXjD2pYo3tpfIFa9OzoPlccxs10u2nFvSJPcxhGHfCZMPT3Rg+10BIlKOCetdjw86a9SDZZh9PV8bbB2C6niyRV0C4a1nO/Dh2aVAEjRqYzDh0I9Kgp4eU08LT8zXoWd4GbafQXWxVXJeaH+RaZL/WDb696X+PcK+5zmmJ4pSpymfnNhkkuz+35/1yNA4cAOcZ+orDLn5s8goBAOqaE9rl0QKA3zKuORAtAac9AqBzJPpHUSAaYOIXrnCKM6/S5V9k9osZuwLTy1RN9aLJhsO1o661Juhv3TuWfUyfDvhyQxGQMEiRC1DSffDMx+BEt31H9MJlVkXhrP3IgdWZLLoAwbLKtgBPg3/ba27P0ZQU+ePPJ+R5Aw== clinton-bicep-lab"
+    },
+    "vmSize": {
+      "value": "Standard_B1s"
+    },
+    "storageAccountName": {
+      "value": "clintonbiceplab08dev"
+    },
+    "alertEmailAddress": {
+      "value": "hycinthclinton995@gmail.com"
+    },
+    "principalId": {
+      "value": "ad4b966b-2689-4f83-a358-897e103411f5"
+    }
+  }
+}
